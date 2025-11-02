@@ -63,3 +63,10 @@ a188ef4 (HEAD -> main, origin/main) Correction to README.md
 33f6e9c Initial commit: add README and .gitignore
 (insy6500)
 ```
+
+## Questions
+
+### Reflections
+
+1. 
+ - a) Before this assignment I normally versioned my work with a revision table and markers. File names like v1-1 and v1-2 for minor changes and then v1 and v2 for major changes. Something along those lines. Files that I felt were important enough for such versioning usually have a table at the bottom with version numbers, dates, and modified content as well. Git provides the benefit of version history without having a mess of file names. Another advantage of 
