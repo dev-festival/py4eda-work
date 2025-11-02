@@ -99,10 +99,23 @@ This approach keeps individual but significant steps of the project versioned an
 
 1.
 a) Committing the README and .gitignore together first, then hw3a-solution.md separately, creates a clearer project history. The first commit represents the initialization and setup of the repository. The second commit represents the actual coursework content. This is much more valuable than one commit that says 'add all files.'
+
 b)I think the code block and the README update need seperate commits while the half-finished function should not go up at the moment. This leaves the typo fix as uncommitted. I do not think the typo would need a commit now, but the other two I mentioned should be staged and committed separately, maybe README first then the code. The staging area helps me make this decision by letting me selectively choose which files to include in each commit.
+
 c)`git status` shows me what changes exist in my working directory and what's currently staged, which helps me know what is ready for committing next. The staged files show as green, and modified but not staged show as red. I should be using this command often to keep a pulse on my workflow, make sure the right things are staging and committing, and prevent forgetting important changes.
 
+2.
+a) A 'distributed' version control system means that every person has a complete copy of the repository distributed to their local machine. This is different from Google Drive or Dropbox because I'm not just uploading or downloading the latest files, when I cloned class_repo and my_repo, I got the entire history of changes, all the commits, and all the versions.
 
+b) This architecture enables asynchronous, independent workflow. I can work on my local machine and make commits whenever I want, even without internet access. If it's a collaborative project, others can work on their machines at the same time. When connection is re-established, we can push our commits and sync our work. This wouldn't be possible with a centralized system that requires constant connection to a server.
+
+c)
+```bash
+- `git clone`   # copies the entire repository from GitHub to my local machine, including all files and history.
+- `git pull`    # retrieves the latest changes from GitHub and updates my local repository.
+- `git push`    # sends my local commits up to GitHub.
+```
+GitHub repositories limit write access to approved contributors. The class_repo has read-only access for students, so I can clone it to get a copy and pull to get updates, but I cannot push changes back to it. Only the instructor (the owner) has write access to control it. Since I am the owner of my_repo, I have full read and write permissions, which allows me to both pull updates and push my commits to GitHub.
 
 
 
