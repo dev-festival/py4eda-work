@@ -117,5 +117,19 @@ c)
 ```
 GitHub repositories limit write access to approved contributors. The class_repo has read-only access for students, so I can clone it to get a copy and pull to get updates, but I cannot push changes back to it. Only the instructor (the owner) has write access to control it. Since I am the owner of my_repo, I have full read and write permissions, which allows me to both pull updates and push my commits to GitHub.
 
+3.
+a) When deciding what to commit, I will focus on creating meaningful checkpoints that document my progress while keeping the history useful and understandable. To show work progress I can commit intermediate steps that work, iterations, and bug fixes. I will try and avoid committing a bunch of tiny updates and experimental code that I end up deleting.
+
+b)Both READMEs will (should) explain the purpose of the repository, but they serve different audiences. A portfolio README highlights the projects and their significance, showcasing what I learned and the skills demonstrated. While a project README will focus on functionality, describing how to use the code, where to find key components, and how everything works together.
+
+c)Building a public portfolio during coursework is valuable because it captures my learning process in real-time. Even though I'm already employed, this serves as a reference for myself to recall my best work and the skills I've developed. Some good habits to develop are: 
+
+```SQL
+-- Maintain a clear commit history
+-- Organize files logically so the repository structure makes sense to others (and future me) viewing it"
+-- Write documentation as I go 
+-- Treat each assignment as portfolio-worthy
+```
+By developing these habits now, my portfolio becomes a personal reference and a demonstration of good practices I can bring to my team.
 
 
