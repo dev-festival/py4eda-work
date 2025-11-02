@@ -92,6 +92,17 @@ I think a good 'unit of work' is any bit of code or text that accomplishes one t
  - One commit for loading and cleaning the dataset
  - Another commit for adding a specific visualization
  - A separate commit for fixing a bug in a calculation
+
 This approach keeps individual but significant steps of the project versioned and clearly documented, making it easier to track progress and troubleshoot issues later.
+
+### Graduate Questions
+
+1.
+a) Committing the README and .gitignore together first, then hw3a-solution.md separately, creates a clearer project history. The first commit represents the initialization and setup of the repository. The second commit represents the actual coursework content. This is much more valuable than one commit that says 'add all files.'
+b)I think the code block and the README update need seperate commits while the half-finished function should not go up at the moment. This leaves the typo fix as uncommitted. I do not think the typo would need a commit now, but the other two I mentioned should be staged and committed separately, maybe README first then the code. The staging area helps me make this decision by letting me selectively choose which files to include in each commit.
+c)`git status` shows me what changes exist in my working directory and what's currently staged, which helps me know what is ready for committing next. The staged files show as green, and modified but not staged show as red. I should be using this command often to keep a pulse on my workflow, make sure the right things are staging and committing, and prevent forgetting important changes.
+
+
+
 
 
