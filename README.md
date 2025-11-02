@@ -30,7 +30,7 @@
 - **Department**: Industrial & Systems Engineering
 - **Course Repository**: [INSY6500](https://github.com/olearydj/INSY6500)
 
---
+---
 
 *This repository is maintained as part of my academic work and professional development in
  data science.*
