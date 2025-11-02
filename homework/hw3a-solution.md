@@ -74,7 +74,7 @@ a) Before this assignment I normally versioned my work with a revision table and
 b) I currently work off of a lot of SQL files that sprawl in quantity and scope. Sometimes I update existing queries but lose track of whether or not I used that one in an excel or powerbi tool. Git version control, I believe, could help me organize this sprawl a lot better with the verion control and commit messaging. Besides version control, it seems to provide intentionality and structure as well which would help me maintain some better records and documentation for these queries. 
 
 2.
-a) It is important to have seperated reference and working directories with seperate security levels so that the files in the reference directory remain intact. If we tried to have a my_repo folder for each student in the class_repo then everyone would be constantly overwriting. If we tried to have seperate folders, then we could also see each others' work which would compromise the integrity. The standalone working repo, sequesters the trials of learning from the class directory at large keeping the class files safe and protecting personal learning environments from other students. 
+a) It is important to have seperated reference and working directories with seperate security levels so that the files in the reference directory remain intact. If we tried to have a my_repo folder for each student in the class_repo then everyone would be constantly overwriting. If we tried to have seperate folders, then we could also see each others' work which would compromise the security of their work as well. The standalone working repo, sequesters the trials of learning from the class directory at large keeping the class files safe and protecting personal learning environments from other students. 
 
 b) 
 For future coursework, I would organize my repositories based on their purpose:
@@ -82,4 +82,16 @@ For future coursework, I would organize my repositories based on their purpose:
 - Individual assignments: I would keep these in their own separate repository (or repositories) so my personal work stays independent from group projects and doesn't get mixed up.
 - Reference materials: I would maintain a separate repository for references, similar to how class_repo works in this class. This keeps important reference materials safe and organized, and I can update them intentionally when needed without accidentally changing them while working on assignments.
 This organization helps me keep different types of work separate, makes it easier to find things, and prevents accidental changes to important materials.
+
+
+3. 
+a) The longer, more descriptive message is more useful. Although it's easy to fall into the habit of writing simple 'update' messages, not leaving a clear breadcrumb trail will make it much more difficult later. Descriptive commit messages help to identify key change-points in the history and avoid rolling back too far if looking for a specific working version. With just 'update,' I'd have to open multiple commits to find the right one.
+
+b)From the 'How to Write a Git Commit Message' article, the tip '**if you're having a hard time summarizing, you might be committing too many changes at once**' really strikes me. I have definitely thought about this question in the past and not had a clean answer for myself, and certainly no consistency because of it. I'm happy to read these articles on the form, function, and standard practices for commits because they're filling in that blank for me.
+I think a good 'unit of work' is any bit of code or text that accomplishes one task or one fix... one complete block that works (or doesn't) but is whole unto itself. For example, in a data analysis project:
+ - One commit for loading and cleaning the dataset
+ - Another commit for adding a specific visualization
+ - A separate commit for fixing a bug in a calculation
+This approach keeps individual but significant steps of the project versioned and clearly documented, making it easier to track progress and troubleshoot issues later.
+
 
